@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { ContactListStyled } from './ContactStyled';
 
+
 const Contact = props => {
     const {contact, deleteContact} = props;
     return (
